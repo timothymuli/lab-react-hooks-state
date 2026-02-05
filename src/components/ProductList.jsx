@@ -1,5 +1,5 @@
-import React from 'react'
-import ProductCard from './ProductCard'
+import React from 'react';
+import ProductCard from './ProductCard';
 
 // Sample product data (for display purposes only)
 export const sampleProducts = [

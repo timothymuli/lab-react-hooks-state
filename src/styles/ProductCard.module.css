@@ -1,5 +1,37 @@
 /* TODO (optional): Style the product card container */
-
+.card {
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
 /* TODO (optional): Add special styling for out-of-stock products */
+.outOfStock {
+    opacity: 0.5;
+}
 
 /* TODO (optional): Style the add/remove button */
+.cartBtn {
+    padding: 8px 16px;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+    font-size: lem;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.cartBtn:hover {
+    background-color: #115293;
+}
+
+.removeBtn {
+    background-color: #e53935;
+}
+
+.removeBtn:hover {
+    background-color: #a02725;
+}

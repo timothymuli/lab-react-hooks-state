@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const DarkModeToggle = ({darkMode, onToggle }) => (
   <button onClick={onToggle}>
