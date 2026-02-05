@@ -16,7 +16,7 @@ const Cart = ({ cart }) => {
             </li>
           );
         })}
-        {cart.length === 0 && <li>Your cart is empty.</li>}
+        {cart.length === 0 && <li>Cart is empty.</li>}
       </ul>
     </div>
   );
